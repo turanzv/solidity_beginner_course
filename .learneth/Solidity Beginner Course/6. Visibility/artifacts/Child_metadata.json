@@ -1,0 +1,129 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "externalFunc",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "publicFunc",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "publicVar",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testInternalFunc",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testInternalVar",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "_internalVar",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_publicVar",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testPrivateFunc",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/Solidity Beginner Course/6. Visibility/visibility.sol": "Child"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/Solidity Beginner Course/6. Visibility/visibility.sol": {
+			"keccak256": "0xee54fb2a37bc399bc511fc153fbf0188b65e015042b96fd2153bb3bc52237eda",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://15dcb86f1ebffd4fa96da917d6854454e7cd11e8c5add88df4b4a01ff4864220",
+				"dweb:/ipfs/Qmawrspm7cunFu1eBCSwmiQJwp7iEms3djjHaLTNuhowbF"
+			]
+		}
+	},
+	"version": 1
+}

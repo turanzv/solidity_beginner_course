@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "sendViaCall",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "sendViaSend",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "sendViaTransfer",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/Solidity Beginner Course/10.3 Transactions - Sending Ether/sendingEther.sol": "SendEther"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/Solidity Beginner Course/10.3 Transactions - Sending Ether/sendingEther.sol": {
+			"keccak256": "0x2edbc19ea17fc04b8ba6a55773fe250a1f10d6acda28a7b03e09ec3204388da7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b77d5bf58c665571464c5dad2c4bd8beed58ba3edb064c0d3e19e615cd86c332",
+				"dweb:/ipfs/QmcNpauZC8Ddxy8YH39XsXh9ykHprJteVbVgKHkpTKEN8n"
+			]
+		}
+	},
+	"version": 1
+}

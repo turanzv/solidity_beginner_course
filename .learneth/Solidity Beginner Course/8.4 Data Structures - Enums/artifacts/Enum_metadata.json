@@ -1,0 +1,125 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "cancel",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "enum Enum.Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getSize",
+				"outputs": [
+					{
+						"internalType": "enum Enum.Size",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "reset",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum Enum.Status",
+						"name": "_status",
+						"type": "uint8"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sizes",
+				"outputs": [
+					{
+						"internalType": "enum Enum.Size",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "status",
+				"outputs": [
+					{
+						"internalType": "enum Enum.Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/Solidity Beginner Course/8.4 Data Structures - Enums/enums.sol": "Enum"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/Solidity Beginner Course/8.4 Data Structures - Enums/enums.sol": {
+			"keccak256": "0xd407afed5c9e7d2f478aaf6f11509c88ac1cac8e3f1ed39a61b82e69ef05e67c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://abdfd29c6063732529612560da063ed3a3997def50b9b18512bc4476e3ddbd6e",
+				"dweb:/ipfs/QmQd5aiC7xNgdETWooajtvQyHbySWNqCp9hy37feDfspiR"
+			]
+		}
+	},
+	"version": 1
+}

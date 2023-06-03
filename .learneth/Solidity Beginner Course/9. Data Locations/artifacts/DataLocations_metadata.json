@@ -1,0 +1,141 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "f",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "foo",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct DataLocations.MyStruct",
+						"name": "",
+						"type": "tuple"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "foo",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct DataLocations.MyStruct",
+						"name": "",
+						"type": "tuple"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "foo",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct DataLocations.MyStruct",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "_arr",
+						"type": "uint256[]"
+					}
+				],
+				"name": "g",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "_arr",
+						"type": "uint256[]"
+					}
+				],
+				"name": "h",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/Solidity Beginner Course/9. Data Locations/dataLocations.sol": "DataLocations"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/Solidity Beginner Course/9. Data Locations/dataLocations.sol": {
+			"keccak256": "0xb0362a636c3024251e712c5507d3dd2943b2304d60d2832976a8fcb0ecc04ee1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://627ac80d7e0b4ded0d21180e54ea063313db855702e1cf81396e0bbe9959fb3e",
+				"dweb:/ipfs/QmPVhacsJgJ4kcWz6ozNWyHAUhKRQ4DjmAJmQFBPyhok6i"
+			]
+		}
+	},
+	"version": 1
+}

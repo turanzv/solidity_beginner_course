@@ -1,0 +1,129 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_newOwner",
+						"type": "address"
+					}
+				],
+				"name": "changeOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "i",
+						"type": "uint256"
+					}
+				],
+				"name": "decrement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "increaseX",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "locked",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "x",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/Solidity Beginner Course/5.3 Functions - Modifiers and Constructors/modifiersAndConstructors.sol": "FunctionModifier"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/Solidity Beginner Course/5.3 Functions - Modifiers and Constructors/modifiersAndConstructors.sol": {
+			"keccak256": "0x2c3417f93d870657754fdbfaa4dc239fea3faf8242f3482b83512cbfeceef4ca",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4c338078cc79fe9fb26e92fc67268f7c3d4b2d36d2252564b27693789cff2abc",
+				"dweb:/ipfs/QmSZFMDr8vHn9TZbG8CyuyVHV9SrS5eGpnZKbFfCNZ8sDz"
+			]
+		}
+	},
+	"version": 1
+}
